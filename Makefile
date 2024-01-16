@@ -11,5 +11,6 @@ router.o: router.c
 	$(CC) -o router.o -c $(CFLAGS) $(CPPFLAGS) router.c
 
 clean:
-	rm -f *.o
-	rm -f router
+	@echo "Cleaning up..."
+	@rm -f *.o
+	@rm -f router
